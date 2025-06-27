@@ -222,6 +222,13 @@ Please follow PSR-12 coding standards and ensure all tests pass.
 * **Timeouts**: Increase the `timeout` option if requests hang.
 * **Sandbox vs Production**: Ensure `base_url` matches the environment.
 
+## 📚 Official Documentation Reference
+
+This library is built on top of the official [Bkash API documentation](https://developer.bka.sh/docs/product-overview).  
+Please refer to it for detailed API behavior, limitations, and authentication guidelines.
+
+Credit goes to the Bkash Developer Team for providing well-structured documentation.
+
 ## License
 
 This library is released under the [MIT License](LICENSE).
