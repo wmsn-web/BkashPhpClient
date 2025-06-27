@@ -68,14 +68,19 @@ Grant Token API provides an access token as a response. This token can be used t
 $response = $bkash->GrantToken($credentials);
 ```
 Sample Response
-<pre>
-    ```
-    http HTTP/1.1 200 OK Content-Type: application/json
-    ```
-    ```json
-     { "token_type": "Bearer", "id_token": "test_id_token_value", "expires_in": 3600, "refresh_token": "test_refresh_token_value" }
-    ```
-</pre>
+```
+HTTP/1.1 200 OK
+Content-Type: application/json
+```
+```
+{
+  "token_type": "Bearer",
+  "id_token": "test_id_token_value",
+  "expires_in": 3600,
+  "refresh_token": "test_refresh_token_value"
+}
+```
+
 
 ### 1. Create a Payment
 
