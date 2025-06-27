@@ -1,6 +1,6 @@
 # PHP bKash Payment Gateway
 
-[![Packagist Version](https://img.shields.io/packagist/v/wmsn-web/BkashPhpClient.svg)](https://packagist.org/packages/wmsn-web/BkashPhpClient) [![License](https://img.shields.io/packagist/l/wmsn-web/BkashPhpClient.svg)](LICENSE) [![Build Status](https://img.shields.io/travis/your-vendor/your-package.svg)](https://travis-ci.org/your-vendor/your-package)
+[![Packagist Version](https://img.shields.io/packagist/v/wmsn-web/bkash-php-client.svg)](https://packagist.org/packages/wmsn-web/bkash-php-client) [![License](https://img.shields.io/packagist/l/wmsn-web/bkash-php-client.svg)](LICENSE) 
 
 A simple, lightweight PHP library for integrating the bKash REST payment gateway in your PHP projects.
 
