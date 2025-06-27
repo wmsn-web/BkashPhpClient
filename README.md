@@ -84,7 +84,7 @@ Save the `id_token` into the database for reuse without generate a new token. On
 This API provides a new access token against the existing token. This new token can be used in subsequent bKash API calls.
 
 ```php
-$response = $bkash->createPayment($refresh_token);
+$response = $bkash->refreshToken($refresh_token);
 ```
 ```
 [
@@ -173,7 +173,7 @@ Sample Response
 ```php
 $paymentID = 'PAYMENT_ID_FROM_CREATE';
 $token = 'from your database'.
-$response = $bkash->queryPaymentStatus($token, $paymentID);
+$response = $bkash->paymentStatus($token, $paymentID);
 ```
 
 
@@ -205,6 +205,8 @@ composer install
 
 See the `examples/` directory for full scripts:
 
+* `grant_token.php`
+* `refresh_token.php`
 * `create_payment.php`
 * `execute_payment.php`
 * `refund_payment.php`
