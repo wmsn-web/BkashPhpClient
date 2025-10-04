@@ -32,7 +32,7 @@ composer require wmsn-web/BkashPhpClient
 Then in your PHP code, initialize the client:
 
 ```php
-use WsmnWeb\BkashPhpClient;
+use WmsnWeb\BkashPhpClient\BkashPhpClient;
 
 $bkash = new BkashPhpClient([
     "base_url" => "https://tokenized.sandbox.bka.sh/v1.2.0-beta/tokenized",
