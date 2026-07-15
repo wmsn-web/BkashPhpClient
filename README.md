@@ -26,7 +26,7 @@ A simple, lightweight PHP library for integrating the bKash REST payment gateway
 Install via Composer:
 
 ```bash
-composer require wmsn-web/BkashPhpClient
+composer require wmsn-web/bkash-php-client
 ```
 
 Then in your PHP code, initialize the client:
